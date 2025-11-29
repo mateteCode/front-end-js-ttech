@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   font-size: 1.6rem;
   background-color: #1a1a2e;
@@ -31,7 +31,7 @@ main {
   padding-bottom: 3rem;
   flex: 1;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -61,15 +61,17 @@ h2 {
   border-radius: 0.5rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  min-width: 16rem;
 }
 
 .btn:hover {
   background-color: #00e5ff;
 }
 
-header, footer {
+header,
+footer {
   background-color: #2b2b40;
-  color:#f7f7ff;
+  color: #f7f7ff;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -131,7 +133,6 @@ footer nav ul li a:hover {
   color: #00bcd4;
 }
 
-
 /*
 * Estilos para index.html
 */
@@ -150,6 +151,12 @@ footer nav ul li a:hover {
   margin-bottom: 4rem;
   background-color: #2b2b40;
   border-radius: 1rem;
+}
+
+.paragraph a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .title-products {
@@ -204,7 +211,8 @@ footer nav ul li a:hover {
 }
 
 @media (max-width: 768px) {
-  header, footer {
+  header,
+  footer {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -215,16 +223,16 @@ footer nav ul li a:hover {
   .header-nav {
     margin: 0;
   }
-  
+
   .header-nav ul {
     margin: 1rem 0;
   }
-  
+
   footer p {
     padding-left: 0;
     margin-bottom: 1rem;
   }
-  
+
   footer nav ul {
     margin: 1rem 0;
     justify-content: center;
@@ -235,12 +243,11 @@ footer nav ul li a:hover {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .card-products {
     width: 90%;
   }
 }
-
 
 /*
 * Estilos para contacto.html
@@ -289,4 +296,34 @@ footer nav ul li a:hover {
   flex-direction: column;
   gap: 1rem;
   margin-bottom: 2.5rem;
+}
+
+/*
+* Estilos para carrito.html
+*/
+.mensaje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.acciones-carrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn-eliminar-carrito {
+  background-color: #ff5252;
+  color: #ffffff;
+}
+
+.btn-vaciar-carrito {
+  background-color: #f7bb2b;
+  color: #1d1a20;
+}
+
+.btn-vaciar-carrito:hover {
+  background-color: #ffdd57;
 }

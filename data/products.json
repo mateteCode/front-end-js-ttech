@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "nombre": "Mando Pro PS5 - Edición Élite",
+    "precio": 365990,
+    "img": "img/1.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Control Inalámbrico Xbox - Phantom",
+    "precio": 248500,
+    "img": "img/2.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Controlador Pro Switch - Neón Blue",
+    "precio": 239990,
+    "img": "img/3.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "Mando USB PC - Retroiluminado",
+    "precio": 132750,
+    "img": "img/4.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "Joystick Arcade - Lujo 8 Botones",
+    "precio": 175000,
+    "img": "img/5.jpg"
+  },
+  {
+    "id": "6",
+    "nombre": "Mando Retro USB - Clásico 90s",
+    "precio": 35500,
+    "img": "img/6.jpg"
+  }
+]

@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>GameZone Controllers - Contacto</title>
+    <title>Carrito</title>
   </head>
   <body>
     <header>
@@ -29,29 +29,19 @@
         </ul>
       </nav>
     </header>
+
     <main>
-      <h1 class="title-contact">Soporte Técnico & Consultas</h1>
-
-      <form
-        class="form-contact"
-        action="https://formspree.io/f/meorpezp"
-        method="POST"
-      >
-        <div class="input-group">
-          <label for="email">Tu Correo (para respuesta): </label>
-          <input id="email" type="email" name="email" />
-        </div>
-
-        <div class="input-group">
-          <label for="message"
-            >Mensaje (ej: consulta de stock o garantía):
-          </label>
-          <textarea id="message" name="message" rows="6"></textarea>
-        </div>
-
-        <button class="btn" type="submit">Enviar Solicitud</button>
-      </form>
+      <h1 class="title-home">Carrito de Compras</h1>
+      <p class="paragraph" id="mensaje-carrito"></p>
+      <div class="acciones-carrito" id="acciones-carrito"></div>
+      <section>
+        <h2 class="title-products" id="productos-seleccionados-titulo">
+          Productos Seleccionados
+        </h2>
+        <div id="contenedor-carrito" class="container-products"></div>
+      </section>
     </main>
+
     <footer>
       <p>Sitio diseñado por Matías Lorenzo para Talento Tech 2025.</p>
       <nav>
@@ -63,6 +53,6 @@
         </ul>
       </nav>
     </footer>
-    <script type="module" src="../js/contacto.js"></script>
+    <script src="../js/carrito.js" type="module"></script>
   </body>
 </html>
